@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaptureEncoderS", "CaptureE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleRecorderC", "SimpleRecorderC\SimpleRecorderC.csproj", "{6F2E5FD1-EF0C-4C2D-A348-4E22DE01874E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Universal", "Universal", "{F7CC6374-15F9-45B9-AC5E-1D5B0698E8B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNetCore", "DotNetCore", "{362B0735-37BE-4922-9477-838160418668}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,6 +118,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7FFCAEB5-D8BA-49F4-B89F-7033E7A01447} = {F7CC6374-15F9-45B9-AC5E-1D5B0698E8B6}
+		{4BA5485A-9122-404C-8FE3-15A8A0E31E40} = {F7CC6374-15F9-45B9-AC5E-1D5B0698E8B6}
+		{109A2C8B-57E1-47F0-8D46-F3C6B3EF598C} = {362B0735-37BE-4922-9477-838160418668}
+		{6F2E5FD1-EF0C-4C2D-A348-4E22DE01874E} = {362B0735-37BE-4922-9477-838160418668}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {148E0D38-5A53-4300-A035-CC4231108226}
