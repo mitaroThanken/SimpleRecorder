@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT;
 
 namespace SimpleRecorderC
 {
@@ -23,6 +24,7 @@ namespace SimpleRecorderC
         public MainWindow()
         {
             InitializeComponent();
+            this.myInkCanvas.InkPresenter.InputDeviceTypes = CoreInputDeviceTypes.Mouse | CoreInputDeviceTypes.Pen;
         }
     }
 }
